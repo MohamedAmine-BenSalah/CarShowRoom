@@ -20,3 +20,6 @@ ul {
   .active {
     background-color: #ec0101;
   }
+  #abouttt{
+      border: red;
+  }

@@ -7,14 +7,15 @@
     <title>Contact Us!</title>
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="contact.css">
+    <script src="main.js"></script>
 
 </head>
-<body>
+<body onload="getinfo()">
         <ul>
         <li><a class="activee" href="index.html">Home</a></li>
         <li><a href="main.html">Show Room</a></li>
-        <li><a class="active" href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a class="active" href="contactus.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
       <div class="container">
         <form action="action_page.php">
@@ -27,15 +28,15 @@
       
           <label for="country">Country</label>
           <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
+            <option value="Tunisia">Tunisia</option>
+            <option value="France">France</option>
             <option value="usa">USA</option>
           </select>
       
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
-          <input type="submit" value="Submit">
+          <button onclick="getinfo()" >Submit!</button>
       
         </form>
       </div>
