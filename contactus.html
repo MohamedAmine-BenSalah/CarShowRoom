@@ -11,7 +11,7 @@
     <script src="main.js"></script>
 
 </head>
-<body onload="getinfo()">
+<body>
         <ul>
         <li><a class="activee" href="index.html">Home</a></li>
         <li><a href="main.html">Show Room</a></li>
@@ -19,7 +19,7 @@
         <li><a href="about.html">About</a></li>
       </ul>
       <div class="container">
-        <form action="action_page.php">
+        <form >
       
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -35,11 +35,11 @@
           </select>
       
           <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <textarea id="subject" name="subject" placeholder="Write something.. and please include your E-mail so we can reach you." style="height:200px"></textarea>
       
-          <button onclick="getinfo()" >Submit!</button>
+          <button  id="submit" onclick="showMessage()" >Submit!</button>
       
-        </form>
+                          
       </div>
 </body>
 </html>
