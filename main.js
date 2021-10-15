@@ -1,4 +1,5 @@
-
 function showMessage() {
-    alert("Thanks for your Time we Will Get To You As Soon as Possible.");
+    var fname = $("#fname").val()
+    alert("Thanks" + " "+ fname + " " +  "For Your Time We Will Reach To You As Soon As Possible.")
+    
 }
