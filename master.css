@@ -1,5 +1,10 @@
 body{
-    background-color: black
+    background-color: black;
+    background-image: url("/Carmodels/chevy-used-cars.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+
   }
   ul {
     list-style-type: none;
