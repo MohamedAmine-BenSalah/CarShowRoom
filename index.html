@@ -1,29 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CarShowRoom</title>
-    <link rel="icon" href="Carmodels/logo.png">
-</head>
-<body>
-
+    <link rel="icon" href="Carmodels/logo.png" />
+  </head>
+  <body>
     <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="main.html">Used Cars</a></li>
-        <li><a href="contactus.html">Contact</a></li>
-        <li><a href="a">About</a></li>
+      <li><a class="active" href="index.html">Show Room</a></li>
+      <li><a href="main.html">Used Cars</a></li>
+      <li><a href="contactus.html">Contact</a></li>
+      <li><a href="a">About</a></li>
+    </ul>
+
+    <section>
+      <ul>
+        <li class="list" onclick="showAll()">All</li>
+        <li class="list" onclick="showMercedes()">Mercedes</li>
+        <li class="list" onclick="showPorshe()">Porshe</li>
+        <li class="list" onclick="showBMW()">BMW</li>
+        <li class="list" onclick="showAudi()">Audi</li>
       </ul>
 
-   
-        </div>
-        
-       
-                <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
-                <script src="main.js"></script>
+      <table class="mercedes">
+        <tr>
+          <td>
+            <img
+              class="cars"
+              src="https://images.wallpaperscraft.com/image/single/mercedes_suv_black_196614_3415x3415.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://catalogue.automobile.tn/big/2021/02/41817.jpg?t=1612802874"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://images.wallpaperscraft.com/image/single/mercedes_car_supercar_159191_300x300.jpg"
+              alt=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              class="cars"
+              src="https://images.wallpaperscraft.com/image/single/mercedes_car_front_view_165547_300x300.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://cdn.motor1.com/images/mgl/ZN38Z/s1/mercedes-sls-amg-electric-drive.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://www.hdcarwallpapers.com/download/mercedes_benz_c_300_amg_line_2021_5k_2-2560x1440.jpg"
+              alt=""
+            />
+          </td>
+        </tr>
+      </table>
+      <!--  -->
+      <table class="porsche">
+        <tr>
+          <td>
+            <img
+              class="cars"
+              src="https://images.alphacoders.com/859/thumb-350-859681.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://images2.alphacoders.com/984/thumb-1920-984632.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://images.hdqwalls.com/download/2016-porsche-911-turbo-s-qhd-1366x768.jpg"
+              alt=""
+            />
+          </td>
+        </tr>
+      </table>
+      <!--  -->
+      <table class="bmw">
+        <tr>
+          <td>
+            <img
+              class="cars"
+              src="https://images4.alphacoders.com/105/thumb-1920-1057695.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://www.wallpapertip.com/wmimgs/4-48324_bmw-m4-2019-4k-4k-wallpaper-car-bmw.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://wallpapercave.com/wp/wp2840052.jpg"
+              alt=""
+            />
+          </td>
+        </tr>
+      </table>
+      <!--  -->
+      <table class="Audi">
+        <tr>
+          <td>
+            <img
+              class="cars"
+              src="https://image.winudf.com/v2/image1/Y29tLkhEV2FsbHBhcGVyei5pbWFnZXMubG9ja3NjcmVlbi5BdWRpUjh3YWxscGFwZXJfc2NyZWVuXzBfMTU5NDA4OTUyM18wODQ/screen-0.jpg?fakeurl=1&type=.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://www.hdcarwallpapers.com/download/eurocode_tuning_audi-1920x1200.jpg"
+              alt=""
+            />
+          </td>
+          <td>
+            <img
+              class="cars"
+              src="https://th.bing.com/th/id/OIP.zlv_kC_C3hkdHKMVdfDcMQHaEK?pid=ImgDet&rs=1"
+              alt=""
+            />
+          </td>
+        </tr>
+      </table>
+    </section>
 
-         
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>

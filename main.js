@@ -1,29 +1,4 @@
-// function getinfo(){
-//     var fname = window.localStorage.getItem('fname');
-//     var infoarea = document.getElementById('fname');
-//     infoarea.innerHTML= fname.toString();
-//     var lname = document.getElementById('lname');
-//     var infoarea = document.getElementById('lname');
-//     infoarea.innerHTML = lname.toString();
-//     var subjectarea = document.getElementById('subject');
-//     var subject = JSON.parse(localStorage.getItem('subject')|| []);
-//     subject.map(subject);
-//     var newsubject = document.createElement('p');
-//     newsubject.innerHTML = subject;
-//     subjectarea.appendChild(newsubject);
-// };
-// function createInfo(){
-//     const value = document.getElementById('subject').value;
-//     var infoarea = document.getElementById('subject');
-//     const newsubject = document.createElement('p');
-//     newsubject.innerHTML = value;
-//     infoarea.appendChild('newsubject');
-//     var subject = JSON.parse(
-//         window.localStorage.getItem('subject') || []);
-//         subject.push(value);
-//         window.localStorage.setItem('subject',JSON.stringify(subject))
-    
-// }
+
 
 
 
@@ -32,6 +7,44 @@ function showMessage() {
     alert("Thanks" + " "+ fname + " " +  "For Your Time We Will Reach To You As Soon As Possible.")
     
 }
+function showAll(){
+    $(".mercedes").show()
+    $(".bmw").show()
+    $(".Audi").show()
+    $(".porsh").show()
+}
+
+
+
+
+function showMercedes() {
+    $(".mercedes").show()
+    $(".bmw").hide()
+    $(".Audi").hide()
+    $(".porsche").hide()
+}
+
+function showBMW() {
+    $(".mercedes").hide()
+    $(".bmw").show()
+    $(".Audi").hide()
+    $(".porsche").hide()
+}
+
+function showPorshe() {
+    $(".mercedes").hide()
+    $(".bmw").hide()
+    $(".Audi").hide()
+    $(".porsche").show()
+}
+
+function showAudi() {
+    $(".mercedes").hide()
+    $(".bmw").hide()
+    $(".Audi").show()
+    $(".porsche").hide()
+}
+
 
 
 

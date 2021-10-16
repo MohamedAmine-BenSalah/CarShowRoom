@@ -93,10 +93,11 @@ body{
   #ee{
     text-align: center;
     color: red;
-    font-style: oblique;
+    font-style: normal;
     padding: 60px;
     text-align: center;
     background: red;
     color: rgb(7, 6, 6);
     font-size: 30px;
   }
+  
